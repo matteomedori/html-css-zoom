@@ -64,7 +64,7 @@ main {
 }
 
 .user {
-  width: calc((100% - 60px) / 7);
+  width: 188px;
   position: relative;
 }
 
@@ -112,6 +112,7 @@ footer > div {
 .footer-left {
   width: 10%;
 }
+
 .footer-center {
   width: 50%;
   display: flex;
