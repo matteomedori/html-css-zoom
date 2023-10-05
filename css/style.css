@@ -97,17 +97,6 @@ footer {
   color: white;
 }
 
-footer > div {
-  display: flex;
-}
-
-.full-icon {
-  display: flex;
-  align-items: center;
-  padding-left: 10px;
-  gap: 10px;
-}
-
 .footer-right,
 .footer-left {
   width: 10%;
@@ -117,6 +106,27 @@ footer > div {
   width: 50%;
   display: flex;
   justify-content: center;
+}
+
+.footer-left {
+  display: flex;
+}
+
+.footer-right {
+  background-color: #4a4a4a;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 15px;
+}
+
+.full-icon {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  gap: 10px;
 }
 
 .icon {
@@ -134,16 +144,6 @@ footer > div {
 
 .symbol.share a {
   color: #4bc800;
-}
-
-.footer-right {
-  background-color: #4a4a4a;
-  color: red;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  padding: 15px;
 }
 
 .footer-right a {
