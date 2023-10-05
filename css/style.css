@@ -22,7 +22,21 @@ HEADER
 */
 header {
   height: 40px;
-  background-color: red;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  color: white;
+  background-color: black;
+  padding-top: 10px;
+  padding-right: 10px;
+  gap: 5px;
+}
+
+.speaker-view,
+.maximize {
+  background-color: #4a4a4a;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 /*
