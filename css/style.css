@@ -14,6 +14,10 @@ RESET
 COMMON
 ----------
 */
+a {
+  color: white;
+  text-decoration: none;
+}
 
 /*
 ----------
@@ -86,5 +90,61 @@ FOOTER
 */
 footer {
   height: 80px;
-  background-color: green;
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+footer > div {
+  display: flex;
+}
+
+.full-icon {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  gap: 10px;
+}
+
+.footer-right,
+.footer-left {
+  width: 10%;
+}
+.footer-center {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  display: inline-block;
+  text-align: center;
+}
+
+.symbol {
+  font-size: 25px;
+}
+
+.icon-name {
+  font-size: 14px;
+}
+
+.symbol.share a {
+  color: #4bc800;
+}
+
+.footer-right {
+  background-color: #4a4a4a;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 15px;
+}
+
+.footer-right a {
+  color: red;
 }
