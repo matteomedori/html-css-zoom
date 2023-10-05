@@ -149,3 +149,11 @@ footer {
 .footer-right a {
   color: red;
 }
+
+.full-icon:hover a {
+  color: aqua;
+}
+
+.full-icon:hover .icon-name {
+  color: aqua;
+}
