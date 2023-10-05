@@ -20,15 +20,44 @@ COMMON
 HEADER
 ----------
 */
+header {
+  height: 40px;
+  background-color: red;
+}
 
 /*
 ----------
 MAIN
 ----------
 */
+main {
+  height: calc(100vh - 120px);
+  background-color: yellow;
+  overflow-y: scroll;
+}
+
+.container {
+  max-width: 90vw;
+  margin: 40px auto;
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.prova {
+  height: 200px;
+  border: 2px solid black;
+  width: calc((100% - 60px) / 7);
+}
 
 /*
 ----------
 FOOTER
 ----------
 */
+footer {
+  height: 80px;
+  background-color: green;
+}
