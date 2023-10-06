@@ -26,10 +26,6 @@ button.secondary-btn {
   color: white;
 }
 
-button.secondary-btn:active {
-  color: #4bc800;
-}
-
 button.primary-btn {
   background-color: #222222;
   display: inline-block;
@@ -37,9 +33,10 @@ button.primary-btn {
   color: white;
 }
 
-button.primary-btn:active {
+button:active {
   color: #4bc800;
 }
+
 /*
 ----------
 HEADER
@@ -107,7 +104,6 @@ footer {
   background-color: #222222;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   color: white;
 }
 
@@ -128,11 +124,9 @@ footer {
 
 .footer-right {
   background-color: #4a4a4a;
-  color: red;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
   padding: 15px;
 }
 
@@ -155,6 +149,10 @@ footer {
   color: #4bc800;
 }
 
-.footer-right button {
+.footer-right button.secondary-btn {
   color: red;
+}
+
+.footer-right button.secondary-btn:active {
+  color: #4bc800;
 }
